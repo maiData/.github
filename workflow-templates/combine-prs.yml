@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - uses: maidata/combine-prs@v1
+      - uses: maidata/combine-prs@main
         with:
           branchPrefix: ${{ inputs.branchPrefix }}
           mustBeGreen: ${{ inputs.mustBeGreen }}
