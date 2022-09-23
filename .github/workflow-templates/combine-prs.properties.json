@@ -1,0 +1,5 @@
+{
+  "name": "Combine PRs",
+  "description": "Combine multiple PRs into a single one.",
+  "iconName": "combine-prs.svg"
+}
