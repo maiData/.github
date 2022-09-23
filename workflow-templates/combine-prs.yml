@@ -1,5 +1,5 @@
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       branchPrefix:
         type: string
@@ -23,7 +23,7 @@ on:
         default: 'nocombine'
 
 jobs:
-  reusable_workflow_job:
+  combine_prs:
     runs-on: ubuntu-latest
     environment: production
     steps:
